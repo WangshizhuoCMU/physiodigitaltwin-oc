@@ -315,39 +315,19 @@ Each departure from the manuscript's described methodology is logged here for fu
 
 ---
 
-## 11. Citation
-
-The accompanying manuscript is currently under review. Until publication, the recommended citation is:
-
-```bibtex
-@unpublished{wei2026physiodigitaltwin,
-  title  = {Physiology-Informed Digital Twins Powered by World Models for
-            Personalized Chemotherapy Response Simulation in Advanced
-            Ovarian Cancer},
-  author = {Wei, Heng and Feng, Chong and Qin, Xue and Niu, Xing and
-            Zhang, Chen and Xia, Yu and Wang, Shizhuo},
-  year   = {2026},
-  note   = {Manuscript submitted for publication}
-}
-```
-
-A Zenodo DOI for the implementation will be issued upon manuscript acceptance, at which point this section will be updated with the canonical published reference.
-
----
-
-## 12. Disclaimer
+## 11. Disclaimer
 
 > [!CAUTION]
 > The framework is a research artefact for retrospective methodological evaluation on publicly released, de-identified datasets. It is **not** a medical device, **not** approved for any clinical use, and **must not** be used to inform individual patient diagnosis, prognosis, or treatment decisions. Prospective clinical evaluation, regulatory clearance, and integration with clinical-decision-support infrastructure are pre-requisites for any translational application.
 
 ---
 
-## 13. Licence
+## 12. Licence
 
 The repository is currently distributed without an explicit licence; under default copyright this reserves all rights to the manuscript authors. A permissive licence consistent with the eventual publication venue's data-availability policy will be applied upon acceptance.
 
 ---
 
-## 14. Acknowledgements
+## 13. Acknowledgements
 
 The publicly available datasets used in this work are released by the TCGA Research Network, the Sanger Institute (GDSC), the Broad Institute (CCLE / DepMap), and the contributing investigators of GSE15459 (Tothill *et al.*, Australian Ovarian Cancer Study) and GSE31978 (Yoshihara *et al.*, Niigata University Hospital). The pharmacokinetic priors are derived from the EORTC carboplatin study (Calvert *et al.*). The implementation builds on the open-source numerical software stack of `numpy`, `scipy`, `torch`, and (in Turn 2) `torchdiffeq`.
